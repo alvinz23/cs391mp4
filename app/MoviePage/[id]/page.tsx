@@ -5,6 +5,7 @@ import getQueryData from '@/lib/getQueryData';
 import MovieType from '@/lib/MovieType'; 
 import {useState, useEffect} from 'react';
 
+
 export default function MoviePage(){
     const param = useParams()
     const movieId = Number(param.id); 
